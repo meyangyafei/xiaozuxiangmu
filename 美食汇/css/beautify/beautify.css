@@ -1,0 +1,58 @@
+/*--------------------------------------------------------------------
+	创建时间：2016/10/04
+	内容：    页面“养颜吃什么”样式
+--------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------
+	内容：    页面标题、底部页码与列表的共同样式
+	1. 宽度94%并在页面居中
+	2. 垂直对齐左对齐
+	3. 字体大小都为0.6rem
+--------------------------------------------------------------------*/
+.beautify_tit,.beautify_figure,.beautify_pageBtn{width:94%;margin:0 auto;display: flex;justify-content:flex-start;align-items:center;font-size: 0.8rem;}
+
+/*--------------------------------------------------------------------
+	内容：    页面标题与列表的不同样式
+--------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------
+	内容：    页面的标题样式
+--------------------------------------------------------------------*/
+.beautify_tit{height:1.65rem;margin-top:0.75rem;color:#afa8a0;}
+
+/*--------------------------------------------------------------------
+	内容：    页面的列表样式
+--------------------------------------------------------------------*/
+.beautify_figure{height:2.85rem;margin-bottom: 0.75rem;border:1px solid #e9e5e2;}
+.beautify_figure figcaption{flex:1;}
+.beautify_figure figcaption img{width:100%;height:auto;display: block;}
+.beautify_figure .figurecon{flex:3.9;color:#fa7e3e;text-indent:0.8rem;}
+.beautify_lastlist{margin-bottom:0;}
+
+/*--------------------------------------------------------------------
+	内容：    底部页码的样式s
+--------------------------------------------------------------------*/
+.beautify_pageBtn{justify-content:center;flex-flow:row nowrap;height:2.85rem;}
+.beautify_pageBtn_down{width:3.25rem;height:1.75rem;display: inline-flex;justify-content:center;align-items:center;}
+.beautify_pageBtn_up a,.beautify_num{font-size:0.7rem;color:#373736;}
+.beautify_num{width:1.25rem;display: inline-flex;justify-content:center;}
+.beautify_pageBtn_down{font-size:0.7rem;background:#fa7e3e;}
+.beautify_pageBtn_down a{color:#fefcfb;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

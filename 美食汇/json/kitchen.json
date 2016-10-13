@@ -1,0 +1,17 @@
+
+[
+	[
+		{"name":"养颜纤体茶","url":"../imgs/kitchen/kitchen-icon1.jpg"},
+		{"name":"木瓜牛奶养颜茶","url":"../imgs/kitchen/kitchen-icon2.jpg"},
+		{"name":"美容养颜番茄茶","url":"../imgs/kitchen/kitchen-icon3.jpg"},
+		{"name":"养颜瘦身汤","url":"../imgs/kitchen/kitchen-icon4.jpg"},
+		{"name":"养颜花茶","url":"../imgs/kitchen/kitchen-icon5.jpg"}
+	],
+	[
+		{"name":"珍珠汤","url":"../imgs/kitchen/ans_picu1.jpg"},
+		{"name":"一清二白","url":"../imgs/kitchen/ans_picu2.jpg"},
+		{"name":"酸辣肚丝汤","url":"../imgs/kitchen/ans_picu3.jpg"},
+		{"name":"红烧牛肉","url":"../imgs/kitchen/ans_picu4.jpg"},
+		{"name":"酸辣粉","url":"../imgs/kitchen/ans_picu5.jpg"}
+	]
+]

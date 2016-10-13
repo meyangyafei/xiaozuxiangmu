@@ -1,0 +1,86 @@
+/*--------------------------------------------------------------------
+	创建时间：2016/10/04
+	内容：    页面“回答问题”详情页样式
+--------------------------------------------------------------------*/
+@import url(../common/question_nav/question_nav.css);
+
+nav{margin-bottom: 0;}
+/* 页面左右边距的包裹层 */
+.content { padding: 0 0.55rem;font-size:0.8rem;}
+ 
+/* 头部 */
+header { height: 2.5rem;}
+/*--------------------------------------------------------------------
+	内容：    问题回答部分样式
+--------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------
+	内容：    添加新答案部分样式
+--------------------------------------------------------------------*/
+
+.answers_ques{width:94%;height:auto;margin:0 auto;margin-top: 0.75rem;}
+.answers_tit{height:auto;line-height:1.4rem;font-size:0.85rem;display: flex;color:#373736;justify-content:flex-start;align-items:flex-end;}
+.answers_addAns_tit{height:2rem;display: flex;justify-content:flex-start;align-items:center;color:#afa8a0;font-size:0.8rem;}
+#addAnswer{height:5rem;width:100%;border:1px solid #afa8a0;background: #fff;resize:none;outline:none;border-radius: 0.2rem;display: flex;padding: 0;margin:0;box-sizing:border-box;color:#333;font-size: 0.8rem;line-height: 1rem;font-family: "微软雅黑";}
+#ans_subBtn{width:100%;height:1.5rem;border-radius: 1.5rem;background:#fa7e3e;color:#fff;font-size:0.7rem;justify-content:center;align-items:center;border:0;outline: none;margin-top:1.25rem;margin-bottom: 0.05rem;font-family: "微软雅黑";}
+
+/*--------------------------------------------------------------------
+	内容：    问题回答列表样式
+--------------------------------------------------------------------*/
+.ans_moreAnswers{height:auto;display:flex;flex-flow:row nowrap;padding-top:1rem;padding-bottom: 0.75rem;border-bottom:1px solid #e9e5e2;}
+/*--------------------------------------------------------------------
+	内容：   回答列表左边样式
+--------------------------------------------------------------------*/
+.ansTakes{width:2rem;height:2rem;background: #eae6e3;border-radius: 0.1rem;}
+.ansTakes a{display: flex;height:100%;width: 100%;flex-flow:nowrap column;align-items:center;justify-content:center;}
+.ansTakes a span:first-child{font-size:0.8rem;color:#a69f96;}
+.ansTakes a span:nth-child(2){font-size:0.7rem;color:#a69f96;}
+/*--------------------------------------------------------------------
+	内容：   回答列表右边样式
+--------------------------------------------------------------------*/
+.ansCon{flex:1;display:flex;flex-flow:column nowrap;padding-left: 0.8rem;}
+.ansCon_info{display: inline-flex;flex-flow:row nowrap;height:1.8rem;justify-content:space-between;align-items:flex-start;}
+.ansCon_info_account{font-size: 0.8rem;color:#373736;display: inlien-flex;justify-content:flex-start;flex-flow:nowrap row;}
+
+.ansCon_info_right{display:flex;flex-flow:row nowrap;align-items:flex-start;}
+.ansCon_info_time{display: inlien-flex;justify-content:flex-start;font-size:0.7rem;color:#a69f96;padding-right: 0.25rem;flex-flow:nowrap row;}
+.ansCon_info_reply{display: inlien-flex;justify-content:space-between;font-size:0.7rem;color:#a69f96;flex-flow:nowrap row;}
+
+.ansCon_detail{display: inline-flex;flex-flow:row nowrap;color:#a69f96;font-size:0.7rem;line-height:1rem;}
+
+/*--------------------------------------------------------------------
+	内容：   美食问答图片样式
+--------------------------------------------------------------------*/
+.answers_recommend,.answers_newFoods,.answers_links{height:auto;width:94%;margin:0 auto;padding-top:1.15rem;display: flex;flex-flow:row wrap;justify-content:space-between;}
+.answers_recommend a,.answers_newFoods a,.answers_links a{height:auto;width:31%;display:inline-flex;margin-bottom: 0.075rem;display: block;}
+
+.answers_figure{border:1px solid #e9e5e2;width:100%;display: inline-flex;flex-flow:column nowrap;box-sizing:border-box;margin:0; padding:0;}
+.answers_figure figcaption{width:100%;height:3.75rem;display: inline-flex;}
+.answers_figure p{width:100%;height:1.4rem;color:#2d2c2b;font-size:0.8rem;justify-content:center;align-items:center;display: inline-flex;}
+
+.answers_figure img{width:100%;height:auto;}
+
+/*--------------------------------------------------------------------
+	内容：   问答列表设置
+--------------------------------------------------------------------*/
+.answers_newFoods h2,.answers_links h2,.answers_tastyans h2,.answers_smallTips h2{width:100%;display: flex;height:1.35rem;color:#99948d;font-size:0.8rem;}
+.answers_tastyans,.answers_smallTips{height:auto;width:94%;margin:0 auto;padding-top:1.15rem;display: flex;flex-flow:column nowrap;}
+
+.answers_list{width:100%;height:auto;}
+.answers_list li:first-child{border-top:1px solid #eae6e3;}
+.answers_list li{height:2.5rem;border-bottom:1px solid #eae6e3;color:#373736;}
+.answers_list a{color:#373736;display: flex;width:100%;height:100%;flex-flow:row nowrap; justify-content:space-between;align-items:center;box-sizing:border-box;font-size:0.8rem;padding-left:0.25rem;padding-right:0.1rem;}
+.answers_list a span:nth-child(2){color:#aca59d;font-size:1rem}
+
+.answers_lastsec{margin-bottom: 1.15rem;}
+/*--------------------------------------------------------------------
+	内容：   点赞后的样式设置
+--------------------------------------------------------------------*/
+.ans_active{background: #FA7E3E;}
+.ans_moreAnswers .ans_active  a span{color:#fff;}
+
+
+
+
+
+

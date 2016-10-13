@@ -1,0 +1,198 @@
+/*登录注册*/
+#contain{
+	min-height: 500px;
+    height: auto!important;
+    height: 500px;
+    margin:0 auto;
+    width:902px;
+    padding:0 24px;
+    background:#d8d8d8;
+}
+#contain:after{
+	content"." display:block;height:0;clear:both;overflow: hidden;visibility: hidden;
+}
+.help-tet{
+	height:1500px;width:902px;
+}
+.help-p1{
+	height:60px;width:182px;line-height:70px;font-size:18px;color:#a1937f;
+}
+.help-list{
+	width:182px;height:500px;float:left;
+}
+.help-list li{
+	height:28px;width:160px;line-height: 28px;
+}
+.register{
+	width:720px;height:1290px;float:left;
+}
+.vip-box{
+	height:1080px;width:240px;float:left;padding-left:38px;padding-top:10px;border-right:1px dashed #666;
+}
+.vip-pic1{
+	width:262px;height:40px;
+}
+.f1{
+	width:240px;height:70px;
+}
+.f1 input{
+	width:160px;height:20px;margin-top:10px;margin-left:40px;border:1px dashed #93846f;color:#666;
+}
+.lowpass{
+	width:230px;height:20px;line-height:20px;text-align:center;margin-top:25px;
+}
+.now-reg{
+	width:154px;height:21px;padding-left:76px;margin-top:10px;margin-bottom:30px;
+}
+
+.alipay{
+	width:120px;height:30px;padding-left:70px;
+}
+.privip{
+	width:220px;height:130px;background:#ededed;
+}
+.privip-p{
+	height:34px;font-size:12px;color:#666;font-weight:900;line-height:34px;padding-left:5px;
+}
+.privip-contant{
+	width:200px;height:68px;padding-left:26px;
+}
+.privip-contant li{
+	width:190px;line-height:18px;list-style-type: disc;font-size:12px;color:#666;
+}
+
+
+
+
+
+
+
+/*右边*/
+
+
+.new-vip{
+	height:1225px;width:366px;float:left;padding:10px 38px 0 18px;
+}
+.newvip-p1,.newvip-p2,.newvip-p3{
+	height:26px;line-height:26px;color:#666;font-weight:900;font-size:12px;
+}
+.hint-list{
+	width:344px;
+}
+.name-tet{
+	width:344px;height:20px;padding-top:10px;padding-left:10px;
+}
+.name-tet span{
+	margin-right:60px;color:#666;font-size:10px;
+}
+.name-tet select{
+	width:58px;color:#93846f6;border:1px solid #666;height:18px;line-height:18px;
+}
+.name-tet input{
+	width:155px;border:none;border:1px solid #666;height:18px;line-height:18px;
+}
+.locat{
+	width:344px;height:20px;margin-top:4px;padding-left:10px
+}
+.locat span{
+	margin-right:84px;color:#666;font-size:10px;
+}
+.locat select{
+	width:218px;color:#93846f;border:1px solid #666;
+}
+
+.mation{
+	width:344px;height:92px;padding-left:10px;
+}
+.mation span{
+	color:#666;font-size:10px;display:inline-block;width:100px;text-align:left;
+	margin-right:20px;
+}
+.dy-addr1,.dy-addr2,.pass1,.pass2{
+	width:218px;color:#93846f;border:1px solid #666;margin-top:4px;border:1px solid #666;height:18px;line-height:18px;
+}
+.matter{
+	height:120px;margin-top:12px;padding-left:10px
+}
+.matter p{
+	font-size:10px;color:#93846f;line-height:14px;
+}
+
+.myfavorite{
+	width:344px;height:90px;padding-left:10px;
+}
+.newvip-p4{
+	width:346px;height:40px;line-height:40px;color:#93846f;font-weight:900;font-size:12px;
+}
+.myfavorite select{
+	width:346px;border:1px solid #666;margin-top:4px;color:#93846f;
+}
+.myfavorite input{
+	width:344px;border:1px solid #666;margin-top:4px;color:#93846f;
+}
+.myskin{
+	width:344px;padding-left:10px;
+}
+.myskin select{
+	width:346px;color:#93846f;border:1px solid #93846f;
+}
+
+.subs{
+	width:344px;padding-left:10px;
+}
+.subs  span{
+	font-size:10px;color:#
+}
+.clause{
+	width:344px;padding-left:10px;
+}
+.clause-tet{
+	width:350px;height:150px;color:#666;
+}
+.testing{
+	width:350px;height:100px;
+}
+.tes-pic{
+	float:left;
+}
+
+.repl{
+	float:left;padding-top:30px;margin-left:10px;line-height:40px;height:40px;
+}
+.pic-veri{
+	width:220px;border:1px solie #666;color:#666;font-size:10px;padding-left:5px;
+}
+
+.sub-wrap{
+	height:30px;border-top:1px dashed #666;margin-top:10px;padding-top:10px;
+}
+#btn{
+	border:1px solid #666;color:#93846f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

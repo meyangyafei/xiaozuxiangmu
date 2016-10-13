@@ -1,0 +1,39 @@
+@charset "utf-8";
+/**
+ * 作者：顾乐威
+ * 描述：[全部问题] 页面样式
+ * 修改：2016.10.4
+ */
+
+/* 导航栏 */
+@import url("../common/question_nav/question_nav.css");
+
+/* 字体大小重置*/
+body, a { font-size: 0.8rem;}
+
+/* 页面边距 */
+.content, .question-article-con > section { padding: 0 0.55rem;}
+
+/* 主体位置 */
+article { margin-top: -0.4rem;}
+
+/* section */
+.question-article-con > section { position: relative; padding-top: 0.75rem; padding-bottom: 0.75rem; }
+
+/* section 边框 */
+.question-article-con > section:after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; border-bottom: 1px solid #e9e5e2; transform: scaleY(.5); transform-origin: 0 0;}
+
+/* 问题标题 */
+.question-article-con > section a { margin-bottom: 0.25rem; font-weight: normal; color: #373736; /*font-size: 0.6rem;*/}
+
+/* 问题数据 */
+.question-article-con > section p { color: #afa8a0; /*font-size: 0.6rem;*/ }
+.question-article-con > section p span { padding: 0 0.225rem; margin-left: -0.225rem;}
+.question-article-con > section p strong { font-weight: normal; }
+
+/* 页码 */
+.page-number { height: 3rem; display: flex; justify-content: center; align-items: center; /*font-size: 0.6rem;*/ }
+.page-number a { display: flex; justify-content: center; align-items: center; height: 1.75rem; }
+.page-number a.active { background-color: #fa7e3e; color: #fff; padding: 0 0.75rem; }
+.page-number span strong { font-weight: normal;}
+.page-number span { display: flex; padding: 0 0.35rem; }

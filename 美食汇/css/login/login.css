@@ -1,0 +1,42 @@
+#form{
+	width:100%;height:auto;/*margin-top:2.45rem;*/
+}
+.error_tips{height:2.45rem;width:95%;margin:0 auto;color:red;font-size:0.7rem;display: flex;justify-content:flex-end;align-items: center;}
+/*
+	定义登录页面各个盒子间相同的样式
+*/
+.loginBox_com{width:94%;height:1.9rem;border:1px solid #e9e5e2;overflow: hidden;display: flex;flex:1;justify-content:center;align-items:center;margin:0 auto;background: #fff;}
+.loginBox_com .iconfont{color:#a9a39b;}
+.loginBox_tips{width:95%;height:2rem; margin:0 auto;display: flex;align-items:center;font-size:0.65rem;color:#999;}
+.login_info{margin-bottom: 0.75rem;flex-flow:nowrap row;}
+.loginBox_com input{width:100%;height:100%;outline: none;border:0;font-family: "微软雅黑";}
+
+/*
+	定义登录部分的样式，即用户名，密码和登录
+*/
+.login_submit{background: #a9a39b;color:#fbfbfa;font-size: 0.9rem;font-family: "微软雅黑";}
+.login_info span{flex:1;display: inline-flex;font-size:1.3rem;justify-content:center;align-items:center;}
+.login_info input{flex:6;display: inline-flex;align-items:center;text-align: right;padding-right:1rem;}
+.login_info .passWord{font-size:1.5rem;}
+
+/*
+	定义两个提示部分的样式
+*/
+.loginBox_tips{justify-content:flex-start;}
+.login_href{justify-content:flex-end;}
+.login_href .login_res{color:#373736;margin-left: 1rem;}
+/*
+	定义登录方式的样式
+*/
+.login_way1{background: #5dc3f0;margin-bottom: 0.35rem;font-size: 0.9rem;}
+.login_way2{background: #fa7e3e;font-size: 0.9rem;}
+.login_way1 a{color:#fbfbfa;}
+.login_way2 a{color:#fbfbfa;}
+
+
+
+
+
+
+
+

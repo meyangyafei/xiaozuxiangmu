@@ -1,0 +1,143 @@
+#contains{
+	margin:0 auto;
+	min-height: 500px;
+    height: 1388px;
+    width:902px;
+    padding:0 24px;
+    background:#d8d8d8;
+}
+
+
+.help-contains{
+	width:185px;height:1055px;margin-top:10px;float:left;
+}
+.help-contains h4{
+	height:48px;font-size:18px;color:#938570;line-height:36px;
+}
+.help-list li{
+	height:28px;line-height:28px;
+}
+.help-list li a{
+	font-size:10px;color:#666;
+}
+
+.mycarts{
+	width:685px;height:1055px;background:#fff;float:right;border-radius:10px;
+}
+
+.paystep{
+	height:68px;line-height:68px;padding:0 20px;
+}
+.paystep b{
+	font-size:16px;color:#938570;margin-right:350px;
+} 
+.stron{
+	font-weight:900;
+}
+.sendstat-wrap{
+	width:625px;height:88px;padding:0 30px;margin-bottom:20px;
+}
+.sendstat{
+	width:557px;height:58px;background:#ffe285;padding:15px 34px;
+}
+.sendstat p{
+	font-size:10px;color:#666;line-height:16px;
+}
+.payway{
+	margin-top:30px;padding-left:30px;font-size:16px;color:#9a866e;
+}
+.payway-contain{
+	width:424px;height:178px;background:#ededed;margin:0 auto;padding:0 100px;padding-top:10px;
+}
+.payway-contain p{
+	width:400px;line-height:18px;padding-left:40px;
+}
+
+.paydata{	
+	width:624px;height:130px;background:#ededed;margin:0 auto;padding-top:10px;	
+}
+.paydata .p1{
+	height:25px;line-height:25px;
+}
+.paydata span{
+	margin-right:88px;font-size:14px;color:#666;
+}
+.paydata select{
+	width:264px;height:20px;border:0;border:1px solid #abadb3;color:#93846f;text-indent: 5px;
+}
+.paylists-pic {
+	padding-left:180px;margin-top:10px;height:30px;
+}
+.paylists-pic li{
+	float:left;margin-left:10px;
+}
+.bianhao{
+	width:624px;height:30px;background:#ffe285;margin-top:24px;padding-top:10px;
+}
+.bianhao input{
+	width:264px;height:20px;border:0;border:1px solid #abadb3;margin-left:10px;
+}
+.choose-pay{
+	width:624px;height:100px;margin-top:32px;border-top:1px dashed #666;padding-top:10px;
+}
+.pay-piclist img{
+	float:left
+}
+.pay-piclist .img1{
+	margin-right:270px;
+}
+
+.pay-piclist .img2{
+	margin-right:10px;
+}
+
+.payitem{
+	height:16px;width:315px;background:#ededed;border:1px dashed #666;font-size:10px;color:#666;line-height:16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

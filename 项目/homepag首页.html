@@ -1,0 +1,563 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>首页</title>
+		<link rel="stylesheet" href="css/index.css"/>
+		<link rel="stylesheet" href="css/public.css"/>
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js" ></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script src="js/Tween.js"></script>
+		<script src="js/time_move.js"></script>
+	</head>
+	
+	<body>
+	<!-------------头部--------------------->
+	<div id="head-wrap">
+		<div id="head">
+			<div id="select-1">
+				<a href="#">中国</a>
+				<a href="#"><img src="img/sele.jpg"></a>
+				<ul class="contry-list">
+					<li><a href="#">美国</a></li>
+					<li><a href="#">中国</a></li>
+					<li><a href="#">澳中</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">全球</a></li>
+					<li><a href="#">亚太区<br />
+						<span><a>印度</a></span><br />
+						<span><a>印度</a></span><br />
+						<span><a>印度</a></span><br />
+						<span>印度尼西亚</span><br />
+						<span>马来西亚</span><br />
+						<span>日本</span><br />
+					</a></li>
+					<br />
+					<li><a href="#">南美洲</a></li>
+					<li><a href="#">巴西</a></li>
+					
+					
+				</ul>
+			</div>
+			<div class="shu">|</div>
+			<div id="select-2">
+				<a href="#">简体</a>
+				<a href="#"><img src="img/sele.jpg"></a>
+				<ul class="language">
+					<li><a href="#">English</a></li>
+				</ul>
+			</div>
+			<div class="head-right">
+				<a href="register.html" >登录</a> |
+				<a href="register.html" >注册领取尊享礼品</a> |
+				<a href="#" >我的回馈优惠</a> |
+				<a href="#" >订单追踪</a> |
+				<a href="#" >帮助</a>
+			</div>
+		</div>
+	</div>
+	<!------------logo-------------------->	
+	<div id="logo-container">
+		<div id="logo-wrap">
+			<h1 id="logo"><a href="#"><img src="img/logo.jpg" alt="COSME-DE.COM" title="logo"/></a></h1>
+			<div id="myshopping">
+				<a class="a-1" href="#"><img src="img/myshop.jpg"/></a>
+				<a class="a-2" href="#">
+					<b>0 件货品</b>
+				</a>
+				<a class="a-3" href="#">
+					<b>USD O.OO</b>
+				</a>
+				<a href="#" class="a-4">
+					<b>购买任何商品，全球免费送</b>
+				</a>
+			</div>
+		</div>
+		
+	</div>
+	<!--banner-------------------------------->
+	<div id="banner">
+		<!-------更多---------------------------------->
+		<div id="titles">
+			<a href="#">[日本热卖] 人气化妆护肤品牌大集合了解更多>></a>
+		</div>
+		<!--导航nav-------------------------------->
+		<ul class="nav">
+			<li class="item"><a href="#">脸部保养</a></li>
+			<li class="item"><a href="#">魅力彩妆</a></li>
+			<li class="item"><a href="#">芬芳香水</a></li>
+			<li class="item"><a href="#">个人护理</a></li>
+			<li class="item"><a href="#">母婴护理</a></li>
+			<li class="item"><a href="#">男士保养</a></li>
+			<li class="item"><a href="#">礼物套装</a></li>
+			<li class="item"><a href="#">健康食品</a></li>
+			<li class="item"><a href="#">天然有机</a></li>
+			<li class="item"><a href="#">清货促销</a></li>
+			<li class="item"><a href="#">新到货品</a></li>
+			<li class="item"><a id="teshu" href="#">每周优惠</a></li>
+		
+		</ul>
+		<!--搜索框-------------------------->
+		<div class="search-wrap">
+		<input id="search_content" type="text" value="输入关键字 或 货品编号" class="search-key"/>
+			
+			
+			<select class="sel">
+				<option value="">所有品牌</option>
+				<option value="b00000447">3 Concept Eyes </option>
+				<option value="b00000391">4D Slim 瘦 4 围</option>
+				<option value="b00000553">8 x 4 </option>
+				<option value="b00000583">Advance Pure Care 乐的健</option>
+				<option value="b00000398">Aesop 伊索</option>
+				<option value="b00000679">Afriel & Lofiel </option>
+				<option value="b00000344">AHAVA 爱海薇</option>
+				<option value="b00000505">Akiku </option>
+				<option value="b00000254">Albion 奥比虹</option>
+				<option value="b00000444">Alqvimia </option>
+				<option value="b00000689">Alterna Haircare </option>
+				<option value="b00000484">Alva </option>
+				<option value="b00000445">American Crew </option>
+				<option value="b00000532">Ankang 安康</option>
+				<option value="b00000004">Anna Sui 安娜苏</option>
+				<option value="b00000294">Annemarie Borlind </option>
+				<option value="b00000483">Annick Goutal </option>
+				<option value="b00000643">Anthony </option>
+				<option value="b00000436">APIVITA 艾蜜塔</option>
+				<option value="b00000456">Argital </option>
+				<option value="b00000008">Aromatherapy Associates </option>
+				<option value="b00000437">ASTALIFT 艾诗缇</option>
+				<option value="b00000487">Athanor 雅丹璐</option>
+				<option value="b00000388">Aubrey Organics </option>
+				<option value="b00000488">Auromere </option>
+				<option value="b00000459">Avalon Organics </option>
+				<option value="b00000215">Aveda 雅达</option>
+				<option value="b00000011">Avène 雅漾</option>
+				<option value="b00000365">AVON </option>
+			</select>
+			<a  href="#"><img id="seach-img" src="img/search_button_01.gif" /></a>
+			<div class="preview">
+				<a href="#">品牌一览表</a> |
+				<a href="#">多买多送</a>
+			</div>
+			<div class="offers-button">
+				<a href="#"><img src="img/offers_button.png"/></a>
+			</div>			
+		</div>
+		<!-------热门搜索--------------------------->
+		<div class="hot-seach">
+			<b>热门搜索:</b>
+				<a href="#">雅诗兰黛</a>
+				<a href="#">面膜</a>
+				<a href="#">防晒</a>
+				<a href="#">娇韵诗</a>
+				<a href="#">香奈儿</a>
+				<a href="#">嬌兰</a>
+				<a href="#">摩洛哥油</a>
+				<a href="#">健康食品</a>
+				<a href="#">斐尔氏</a>
+				<a href="#">护肤精华</a>
+				<a href="#">有机</a>
+				<a href="#">纤体紧致</a>
+				<a href="#">10刀以下</a>
+			</ul>	
+		</div>
+		<!------------轮播图------------------>
+		<div id="container">
+			<div id="box">
+				<ul id="flash-list">
+					<li class="active"><a href="javascript:;"><img src="img/lunbo1.png" alt=""></a></li>
+					<li><a href="javascript:;"><img src="img/lunbo2.png" alt=""></a></li>
+					<li><a href="javascript:;"><img src="img/lunbo3.png" alt=""></a></li>
+					<li><a href="javascript:;"><img src="img/lunbo4.png" alt=""></a></li>
+				</ul>
+				<div id="flash-btn">
+					<a href="javascript:;" class="active"></a><a href="javascript:;"></a><a href="javascript:;"></a><a href="javascript:;"></a>
+				</div>
+				<div id="direction-btn"><a href="javascript:;" id="left-btn"><</a><a href="javascript:;" id="right-btn">></a></div>
+			</div>
+		</div>
+		<!----------背景链接--------------------------->
+		<div id="bg-wrap">
+			<div class="bg-link"><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>	
+			</div>
+		</div>
+		<!-------------------购买优惠---------------------------->
+		<div class="shop-favo">
+			<div class="shop-li">
+				<img src="img/shipping.png" />
+				<p>买满50美金免邮</p>
+			</div>
+			<div class="shop-li">
+				<img src="img/days.png" />
+				<p>30天购物保障</p>
+			</div>
+			<div class="shop-te">
+				<img src="img/genuine.png" />
+				<p>100%原装正品</p>
+			</div>
+		</div>
+		<!------------主题商品列表---------------->
+		<div class="new-show">
+			<a class="show-container" href="#">
+				<img src="img/arrow.gif" />
+				<div class="p-list">
+					<p class="p-weight">新到货品</p>
+					<p>马上看</p>
+				</div>
+				<img class="line-pic" src="img/line.jpg" />
+				<img class="bottom-pic" src="img/dsan.gif" />
+			</a>
+			<a class="show-container" href="#">
+				<img src="img/arrow.gif" />
+				<div class="p-list">
+					<p class="p-weight">最畅销货品</p>
+					<p>值得一试！</p>
+				</div>
+				<img class="line-pic" src="img/line.jpg" />
+			</a>
+			<a class="show-container" href="#">
+				<img src="img/arrow.gif" />
+				<div class="p-list">
+					<p class="p-weight">天然有机</p>
+					<p>爱自己，珍惜地球！</p>
+				</div>
+				<img class="line-pic" src="img/line.jpg" />
+				
+			</a>
+			<a class="show-container" href="#">
+				<img src="img/arrow.gif" />
+				<div class="p-list">
+					<p class="p-weight">美肌补充品</p>
+					<p>展现你的[内在美]</p>
+				</div>
+				
+			</a>								
+		</div>	
+	</div>
+	<!-------------商品图片列表-------------------------------->
+	<div class="container-pic">
+		<div class="contant-pic">
+			<img src="img/pic1.jpg" />
+			<img src="img/icon_new.gif" />
+			<a class="a-1" href="#">Dr. Dennis Gross 卡诗</a>
+			<a class="a-2" href="#">Nutritive  滋养修复发膜 (适合极干性发)</a>
+			<p class="line-bottom"></p>
+			<b>USD 41.00</b>
+			<p>节省38%</p>
+		</div>
+		<div class="contant-pic">
+			<img src="img/pic2.jpg" />
+			<img src="img/icon_new.gif" />
+			<a class="a-1" href="#">Dr. Dennis Gross 卡诗</a>
+			<a class="a-2" href="#">Nutritive  滋养修复发膜 (适合极干性发)</a>
+			<p class="line-bottom"></p>
+			<b>USD 41.00</b>
+			<p>节省38%</p>
+		</div>
+		<div class="contant-pic">
+			<img src="img/pic3.jpg" />
+			<img src="img/icon_new.gif" />
+			<a class="a-1" href="#">Dr. Dennis Gross 卡诗</a>
+			<a class="a-2" href="#">Nutritive  滋养修复发膜 (适合极干性发)</a>
+			<p class="line-bottom"></p>
+			<b>USD 41.00</b>
+			<p>节省38%</p>
+		</div >
+		<div class="contant-pic">
+			<img src="img/pic4.jpg" />
+			<img src="img/icon_new.gif" />
+			<a class="a-1" href="#">Dr. Dennis Gross 卡诗</a>
+			<a class="a-2" href="#">Nutritive  滋养修复发膜 (适合极干性发)</a>
+			<p class="line-bottom"></p>
+			<b>USD 41.00</b>
+			<p>节省38%</p>
+		</div>
+		<div class="contant-pic">
+			<img src="img/pic5.jpg" />
+			<img src="img/icon_new.gif" />
+			<a class="a-1" href="#">Dr. Dennis Gross 卡诗</a>
+			<a class="a-2" href="#">Nutritive  滋养修复发膜 (适合极干性发)</a>
+			<p class="line-bottom"></p>
+			<b>USD 41.00</b>
+			<p>节省38%</p>
+		</div>
+		<div class="contant-pic">
+			<img src="img/pic6.jpg" />
+			<img src="img/icon_new.gif" />
+			<a class="a-1" href="#">Dr. Dennis Gross 卡诗</a>
+			<a class="a-2" href="#">Nutritive  滋养修复发膜 (适合极干性发)</a>
+			<p class="line-bottom"></p>
+			<b>USD 41.00</b>
+			<p>节省38%</p>
+		</div>
+		<div class="contant-pic">
+			<img src="img/pic7.jpg" />
+			<img src="img/icon_new.gif" />
+			<a class="a-1" href="#">Dr. Dennis Gross 卡诗</a>
+			<a class="a-2" href="#">Nutritive  滋养修复发膜 (适合极干性发)</a>
+			<p class="line-bottom"></p>
+			<b>USD 41.00</b>
+			<p>节省38%</p>
+		</div>
+		<div class="contant-pic">
+			<img src="img/pic8.jpg" />
+			<img src="img/icon_new.gif" />
+			<a class="a-1" href="#">Dr. Dennis Gross 卡诗</a>
+			<a class="a-2" href="#">Nutritive  滋养修复发膜 (适合极干性发)</a>
+			<p class="line-bottom"></p>
+			<b>USD 41.00</b>
+			<p>节省38%</p>
+		</div>
+		<div class="contant-pic">
+			<img src="img/pic9.jpg" />
+			<img src="img/icon_new.gif" />
+			<a class="a-1" href="#">Dr. Dennis Gross 卡诗</a>
+			<a class="a-2" href="#">Nutritive  滋养修复发膜 (适合极干性发)</a>
+			<p class="line-bottom"></p>
+			<b>USD 41.00</b>
+			<p>节省38%</p>
+		</div>
+		<div class="contant-pic">
+			<img src="img/pic10.jpg" />
+			<img src="img/icon_new.gif" />
+			<a class="a-1" href="#">Dr. Dennis Gross 卡诗</a>
+			<a class="a-2" href="#">Nutritive  滋养修复发膜 (适合极干性发)</a>
+			<p class="line-bottom"></p>
+			<b>USD 41.00</b>
+			<p>节省38%</p>
+		</div>
+		
+		
+	<div class="seemore"><a href="#">观看全部 . .</a></div>
+	</div>
+	<!-----------客户意见------------->
+	<div class="idea-container">
+		<dl class="idea">
+			<dt><a href="#"><img src="img/blue-pic.jpg"/></a></dt>
+			<dd class="dd-text">
+				<a href="#">La Mer 海蓝之谜<br/>再生活肤精华油</a>
+				<p>Yi Ting, 中国, 2016.08.26</p>
+				<span>除了产品质量好，也要赞一下客服的职员，很有耐性，很有礼貌。</span>
+			</dd>
+		</dl>
+		<div class="heart-pic">
+			<img src="img/best_review.jpg" />
+			
+		</div>
+		<div class="seemore-2"><a href="#">观看全部 . .</a></div>
+	</div>
+	<!---------------编辑分享 顾客帮助---------------------->
+	<div class="help-container">
+		<div class="seach-wrap" style="margin-left:0;">
+			<div class="edit-pic"><img src="img/edit_h.gif"/></div>
+			<ul class="seach-tet">
+				<li><a href="#">眼睛超有神！3 款日常眼线教学</a></li>
+				<li><a href="#">轻易打造凯特王妃自然美丽妆容</a></li>
+				<li><a href="#">对抗夏日油光 4 个油性肌护肤小贴士</a></li>
+				<li><a href="#">学性感天后碧昂丝 Beyoncé 的心机妆容</a></li>
+				<li><a href="#">夏日防晒大作战 4 款防晒品推荐</a></li>
+			</ul>
+			<div class="seemore"><a href="#">观看全部 . .</a></div>
+		</div>
+		<div class="seach-wrap">
+			<div class="edit-pic"><img src="img/faq_h.gif"/></div>
+			<ul class="seach-tet">
+				<li><a href="#">眼睛超有神！3 款日常眼线教学</a></li>
+				<li><a href="#">轻易打造凯特王妃自然美丽妆容</a></li>
+				<li><a href="#">对抗夏日油光 4 个油性肌护肤小贴士</a></li>
+				<li><a href="#">学性感天后碧昂丝 Beyoncé 的心机妆容</a></li>
+				<li><a href="#">夏日防晒大作战 4 款防晒品推荐</a></li>
+			</ul>
+			<div class="seemore"><a href="#">观看全部 . .</a></div>
+		</div>
+	</div>
+	<!----------------footer-------------------------->
+	<div class="deal">
+		<span>参考货币</span>
+		<select id="curren-list">	
+			
+			<option selected="" value="CNY"> (CNY) 人民币</option>
+			<option value="USD"> (USD) 美元</option>
+			<option value="BRL"> (BRL) 巴西雷亚尔</option>
+			<option value="HKD"> (HKD) 港元</option>
+			<option value="AUD"> (AUD) 澳元</option>
+			<option value="CAD"> (CAD) 加元</option>
+			<option value="EUR"> (EUR) 欧元</option>
+			<option value="GBP"> (GBP) 英镑</option>
+			<option value="JPY"> (JPY) 日圆</option>
+			<option value="NZD"> (NZD) 纽西兰元</option>
+			<option value="SGD"> (SGD) 新加坡元</option>
+			<option value="ZAR"> (ZAR) 南非兰特</option>
+			<option value="CHF"> (CHF) 瑞士法郎</option>
+			<option value="INR"> (INR) 印度卢比</option>
+			<option value="MYR"> (MYR) 马来西亚元</option>
+			<option value="IDR"> (IDR) 印度尼西亚盾</option>
+			<option value="PHP"> (PHP) 披索</option>
+			<option value="TWD"> (TWD) 新台币</option>
+			<option value="KRW"> (KRW) 韩圜</option>
+			<option value="THB"> (THB) 泰铢</option>
+			<option value="RUB"> (RUB) 俄罗斯卢布</option>
+			<option value="MXN"> (MXN) 墨西哥比索</option>
+			<option value="CLP"> (CLP) 智利比索</option>
+			<option value="COP"> (COP) 哥伦比亚比索</option>
+		</select>
+		<p>所有交易均以美元或人民币结账，其他货币只供参考。欢迎使用以下付款方法：</p>
+	</div>
+	<!-----交易方式------->
+	<ul class="payment">
+		<li><a href="#"><img src="img/bnr_prefer_120x30_y.gif"/></li>
+		<li><a href="#"><img src="img/payment2.gif"/></a></li>
+	</ul>
+	<!--------------链接---------------->
+	<div class="links-list">
+		
+		<div class="links-1">
+			<a class="footer-text" href="#">主页</a>
+			<a class="footer-text" href="#">关于 COSME-DE.COM</a>
+			<a class="footer-text" href="#">联系 COSME-DE.COM</a>
+		</div>
+		<div class="links-1">
+			<a class="footer-text" href="#">我的帐户</a>
+			<a class="footer-text" href="#">批發合作</a>
+			<a class="footer-text" href="#">网站地图</a>
+			<a class="footer-text" href="#">品牌一览表</a>
+			
+		</div>
+		<div class="links-1">
+			<p class="p1">最新消息</p>		
+		</div>
+		<div class="links-1">
+			<p class="p2">2016-08-09</p>	
+			<p class="p2">2016-08-09</p>
+			<p class="p2">2016-08-09</p>
+			<p class="p2">2016-08-09</p>
+		</div>
+		<div class="links-1">
+			<a class="footer-text" href="#">关于G20峰会浙江延迟通知</a>
+			<a class="footer-text" href="#">復活节休假通知</a>
+			<a class="footer-text" href="#">农历年休假中国需时延长</a>
+			<a class="footer-text" href="#">快递通知</a>	
+		</div>
+		<dl class="cation">
+			<dt><img src="img/connect-twitter.gif"/></dt>
+			<dd><a class="footer-text" href="http://twitter.com/cosme_de">twitter</a></dd>
+		</dl>
+		<dl class="cation">
+			<dt><img src="img/connect-facebook.gif"/></dt>
+			<dd><a class="footer-text" href="http://www.facebook.com/COSME.DE">facebook</a></dd>
+		</dl>
+		<dl class="cation">
+			<dt><img src="img/connect-pinterest.png"/></dt>
+			<dd><a class="footer-text" href="http://weibo.com/cosmede">新浪微博</a></dd>
+		</dl>
+		<dl class="cation">
+			<dt><img src="img/connect-pinterest.png"/></dt>
+			<dd><a class="footer-text" href="http://pinterest.com/cosmede/">Pinterest</a></dd>
+		</dl>
+	</div>
+	
+	<!------电子邮件---------->
+	<div style="clear:both"></div>
+	<div class="contant-mail">
+		<div class="contant-1">
+			<b>订阅电子通讯</b>
+			<span>率先知道唯会员独享的最新优惠及新货消息</span>
+			
+		</div>
+		<div class="dz-tet">
+			<input class="mail-tet" text="text" value="电子邮箱"/>
+			<a  href="#"><img src="img/login_button_01.gif"</a>			
+		</div>
+	</div>
+	
+	<!-------------安鑫购物------------------>
+	<div class="head-shopwrap">
+		<div class="heat-shop">
+			<p>安心购物保障：</p>
+			<a href="#"><img src="img/下载.png"/></a>
+			<a href="#"><img src="img/verified_by_visa.gif"/></a>
+			<a href="#"><img src="img/mastercard.gif"/></a>
+			<a href="#"><img src="img/paypal.gif"/></a>
+			<a href="#"><img src="img/bizra.jpg"/></a>
+		</div>
+		<div class="aja-pic">
+			<img src="img/aja.jpg" />
+		</div>
+	</div>
+	<div style="clear:both"></div>
+	<div style="margin-bottom:50px;">
+		<p class="footer-pic">
+			<img src="img/footer_logo.gif" />
+		</p>
+		<p class="footer-p">Copyright © 2007 - 2016 Cosme De Net Co. Ltd. 版权所有 不得转载</p>
+		<p class="footer-p">使用本网站即表示接受有关的<a href="#">使用条款</a>及<a href="#">隐私政策</a></p>
+	</div>
+	<div class="foot-bot">
+		<span id="dock-clock">
+			<script type="text/javascript" language="javascript">
+				function show_cur_times(){
+				//获取当前日期
+				 var date_time = new Date();				
+				 //年
+				 var year = date_time.getFullYear();
+				  //判断小于10，前面补0
+				   if(year<10){
+				  year="0"+year;
+				 }
+				 //月
+				 var month = date_time.getMonth()+1;
+				  //判断小于10，前面补0
+				  if(month<10){
+				month="0"+month;
+				 }
+				 //日
+				 var day = date_time.getDate();
+				  //判断小于10，前面补0
+				   if(day<10){
+				  day="0"+day;
+				 }
+				 //时
+				 var hours =date_time.getHours();
+				  //判断小于10，前面补0
+				    if(hours<10){
+				  hours="0"+hours;
+				 }
+				 //分
+				 var minutes =date_time.getMinutes();
+				  //判断小于10，前面补0
+				    if(minutes<10){
+				  minutes="0"+minutes;
+				 }
+				 //秒
+				 var seconds=date_time.getSeconds();
+				  //判断小于10，前面补0
+				    if(seconds<10){
+				  seconds="0"+seconds;
+				 }				
+				 //拼接年月日时分秒				
+				 var date_str = year+"."+month+"."+day+"."+hours+":"+minutes+"."+seconds+"HKL"			
+				 //显示在id为showtimes的容器里				
+				 document.getElementById("dock-clock").innerHTML= date_str;				
+				}
+				 //设置1秒调用一次show_cur_times函数
+				
+				setInterval("show_cur_times()",100);
+				
+			</script>
+		</span>
+		<div class="footer-shoping">
+			<img src="img/shopping_cart_h2.gif" />
+			<a href="#"><b>0 件货品 USD 0.00</b></a>
+		</div>
+		<div class="zhuce">
+			<a href="#">我的回馈优惠</a> |
+			<a href="register.html">注册</a>
+		</div>
+		
+	</div>	
+	
+		
+	</body>
+</html>
+

@@ -1,0 +1,25 @@
+{
+  "name": "meishihui",
+  "version": "0.10.5",
+  "description": "美食汇",
+  "engines": {
+    "node": "4.4.7"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/venecy/meishihui.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}

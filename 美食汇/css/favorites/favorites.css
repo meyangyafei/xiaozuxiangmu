@@ -1,0 +1,133 @@
+#container{
+	display: flex;
+	background: #fff8f0;
+	width: 100%;
+	margin: 0 auto;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+
+
+#container .myself-info{
+	border: 1px solid #ccc;
+	display: inline-flex;
+	width: 100%;
+	height: 6.15rem;
+	justify-content: center;
+	/*align-items: center;*/
+	position: relative;
+	width: 95%;
+	margin: 1rem auto;
+}
+#container .myself-info .mi-left{
+	width: 30%;	
+	width: 2rem;
+	border-radius: 50%;
+	height: 2rem;
+	display: flex;
+	background: red;
+	overflow: hidden;
+	background: url(../../imgs/favorites/icon4.jpg) no-repeat center;
+	background-size: 100%;
+	padding: 0.8rem;
+	margin-left: 0.65rem;
+	margin-top: 0.55rem;
+}
+#container .myself-info span{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column-reverse;
+	margin-top: 2rem;
+	padding: 0 0.25rem;
+	position: absolute;
+	left: 1.5rem;
+	bottom: 0.5rem;
+	font-size: 0.8rem;
+}
+#container .myself-info .mi-right{
+	width: 70%;	
+}
+#container .myself-info .mi-right h4{
+	display: flex;
+	flex-direction: column;
+	font-size: 1rem;
+	border-left: 1px solid #ccc;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding: 0 2rem;
+	margin-top: 1rem;
+	margin-left: -1rem;
+}
+#container .myself-info .mi-right h4 i{
+	display: flex;
+	font-style: normal;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0.3rem;
+	margin-bottom: 0.9rem;
+}
+
+
+#container .no-classify {
+	display: flex;
+	width: 95%;
+	margin: 1rem auto;
+}
+#container h4{
+	width: 95%;
+	color: #999;
+	font-weight: normal;
+	font-size: 1rem;
+	margin-top: 0.025rem;
+	margin-bottom: 0.025rem;
+	margin-left: 0.5rem; 
+}
+#container .no-classify .goods{
+	/*margin-right: 0.225rem;*/
+	width: 32%;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+#container .no-classify .goods img{
+	display: flex;
+	width: 5.65rem;
+	height: 4rem;
+	margin-left: -0.110rem;
+}
+#container .no-classify .goods span{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.425rem 0;
+	font-size: 0.8rem;
+
+}
+
+#container .classify h3{
+	color: #999;
+	font-weight: normal;
+	font-size: 1rem;
+	margin-top: 0.15rem;
+	margin-left: 0.5rem; 
+	margin-bottom: 0.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

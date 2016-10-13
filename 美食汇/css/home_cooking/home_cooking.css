@@ -1,0 +1,15 @@
+body { max-width: 480px; margin: 0 auto; background-color: #fff8f0; }
+
+h2, a, span { font-size: 0.8rem;}
+
+h1 { height: 2.14rem; font: 0.84rem/1.7rem "微软雅黑"; display: flex; justify-content: center; color: #99948d; }
+article { width: 94%; margin: 0 auto; }
+article section {}
+
+article h2 { height: 1.63rem; background-color: #f2f0ee; display: flex; justify-content: space-between; align-items: center; font-weight: normal;}
+article h2 img { margin-right: 0.42rem; height: 68.42%;}
+article h2 span { margin-left: 0.42rem; }
+
+article p { display: flex; flex-wrap: wrap; }
+article p a { display: flex; height: 1.555rem; align-items: center; padding: 0 0.682rem; margin-left: -0.682rem;}
+

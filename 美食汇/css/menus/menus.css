@@ -1,0 +1,151 @@
+#container{
+	display: flex;
+	background: #fff8f0;
+	width: 100%;
+	margin: 0 auto;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+
+#container .meat{
+	width: 95%;
+	margin: 0 auto;
+}
+h5{
+	color: #99948d;
+	text-align: center;
+	line-height: 50px;
+	font-size: 16px;
+}
+
+/*肉类*/
+#container .meat-title{
+	background-color: #f2f0ee;
+}
+#container .meat-title span{
+	display: block;
+	padding: 10px 10px;
+}
+#container .meat ul{
+	display: inline-flex;
+	flex-direction: row;
+	font-size: 0.85rem;
+}
+#container .meat ul li{
+	padding: 10px 5px;
+
+}
+
+/*鱼类*/
+#container .fish{
+	width: 95%;
+	margin: 0 auto;
+}
+#container .fish-title{
+	background-color: #f2f0ee;
+}
+#container .fish-title span{
+	display: block;
+	padding: 10px 10px;
+}
+#container .fish ul{
+	display: inline-flex;
+	flex-direction: row;
+	font-size: 0.85rem;
+}
+#container .fish ul li{
+	padding: 10px 5px;
+}
+
+
+/*其他水产*/
+#container .others{
+	width: 95%;
+	margin: 0 auto;
+}
+#container .others-title{
+	background-color: #f2f0ee;
+}
+#container .others-title span{
+	display: block;
+	padding: 10px 10px;
+}
+#container .others ul{
+	display: inline-flex;
+	flex-direction: row;
+	font-size: 0.85rem;
+}
+#container .others ul li{
+	padding: 10px 5px;
+}
+
+
+/*根茎蔬菜*/
+#container .Root-vegetable{
+	width: 95%;
+	margin: 0 auto;
+}
+#container .Root-vegetable-title{
+	background-color: #f2f0ee;
+}
+#container .Root-vegetable-title span{
+	display: block;
+	padding: 10px 10px;
+}
+#container .Root-vegetable ul{
+	display: inline-flex;
+	flex-direction: row;
+	font-size: 0.85rem;
+}
+#container .Root-vegetable ul li{
+	padding: 10px 5px;
+}
+
+
+/*茎叶蔬菜*/
+#container .Leaf-vegetable{
+	width: 95%;
+	margin: 0 auto;
+}
+#container .Leaf-vegetable-title{
+	background-color: #f2f0ee;
+}
+#container .Leaf-vegetable-title span{
+	display: block;
+	padding: 10px 10px;
+}
+#container .Leaf-vegetable ul{
+	display: inline-flex;
+	flex-direction: row;
+	font-size: 0.85rem;
+}
+#container .Leaf-vegetable ul li{
+	padding: 10px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; }
+body { font-family: "微软雅黑";max-width:480px;background: #fff8f0;margin:0 auto;}
+a { color:#666; text-decoration:none; }

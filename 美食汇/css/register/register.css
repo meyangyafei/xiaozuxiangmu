@@ -1,0 +1,16 @@
+
+
+/*
+	内容：注册页面验证码部分的样式
+*/
+
+.loginBox_com:nth-last-of-type(2){background: transparent;border:none;}
+.loginBox_com:nth-last-of-type(2) #login_code{border:1px solid #e9e5e2;text-align: left;font-family: "微软雅黑";font-size:0.7rem;text-indent: 0.5rem;box-sizing:border-box;width:55%;flex:1;}
+.login_code_num{width:45%;display:flex;justify-content:center;align-items:center;flex:1;}
+.login_code_num span{width:3.45rem;height:1.2rem;border:1px solid #373736;font-size:1.1rem;color:#373736;display: inline-flex;flex:none;font-weight:bold;background:#e9e5e2;}
+
+/*
+	内容：注册按钮的背景色
+*/
+
+.register_submit{background:#fa7e3e;color:#fff;font-family: "微软雅黑";}

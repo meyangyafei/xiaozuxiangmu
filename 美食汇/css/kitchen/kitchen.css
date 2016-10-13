@@ -1,0 +1,132 @@
+section{
+	display: flex;
+	background: #fff8f0;
+	width:100%;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.kitchen-h3{
+	display: flex;
+	height: 3.575rem;
+	width: 94.27%;
+	align-items: center;
+	
+}
+.kitchen-i{
+	display: inline-flex;
+	height:2.05rem;
+	width: 2.05rem;
+	border-radius: 50%;
+	margin:0 0.25rem 0 0.45rem;
+	background:green url(../../imgs/friends/icon1.jpg) no-repeat center;
+	background-size: 100%;	
+}
+
+.kitchen-span{
+	font-size:0.6rem;
+	color:#52514f;
+}
+
+.kitchen-nav{
+	display: flex;
+	flex-flow: row nowrap;
+	height: 1.8rem;
+	width:94.27%;
+	box-sizing: border-box;
+	border-top: 0.05rem solid #e9e5e2;
+	border-bottom: 0.05rem solid #e9e5e2;
+	align-items: center;
+}
+.kitchen-li{
+	display: inline-flex;
+	margin-right:5%;
+	
+}
+.kitchen-nav-a{
+   font-size:0.6rem;
+   color:#373736;
+}
+.kitchen-a-current{
+	color:#fa7e3e;
+}
+.kitchen-list{
+	width:94.27%;
+}
+.kitchen-list-li{
+	margin-top:0.775rem;
+	width:100%;
+}
+
+.kitchen-dl{
+	display: flex;
+	width:100%;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.kitchen-list-dt{
+	display: inline-flex;
+	width:3.625rem;
+	width:20.51%;
+	height:2.95rem;
+	border-left: 0.025rem solid #e9e5e2;
+	box-sizing: border-box;
+}
+
+.kitchen-i1{
+	width:3.625rem;
+	background: black;
+	height:2.95rem;
+}
+
+.kitchen-i1{
+	background: url(../../imgs/kitchen/kitchen-icon1.jpg) no-repeat center;
+	background-size: 105%;	
+}
+.kitchen-i2{
+	background: url(../../imgs/kitchen/kitchen-icon2.jpg) no-repeat center;
+	background-size:100% 105%;
+}
+.kitchen-i3{
+	background: url(../../imgs/kitchen/kitchen-icon3.jpg) no-repeat center;
+	background-size: 110%;
+}
+.kitchen-i4{
+	background: url(../../imgs/kitchen/kitchen-icon4.jpg) no-repeat center;
+	background-size: 120%;
+}
+.kitchen-i5{
+	background: url(../../imgs/kitchen/kitchen-icon5.jpg) no-repeat center;
+	background-size: 100%;
+}
+
+.kitchen-list-dd{
+	/*margin-top: -200px;*/
+	height:2.95rem;
+	display: inline-flex;
+	width:79.49%;
+	flex-flow: column wrap;
+	border: 0.025rem solid #e9e5e2;
+	box-sizing: border-box;
+	border-left:0;
+	
+}
+.kitchen-p1,.kitchen-p2{
+	width: 100%;
+	text-indent: 2.87%;
+}
+.kitchen-p1{
+	margin-top:0.65rem;
+	font-size:0.6rem;
+	color:#fa7e3e;
+}
+
+.kitchen-p2{
+	margin-top:0.4rem;
+	font-size:0.5rem;
+	color:#99948d;
+}
+.kitchen-span2{
+	margin-left:0.55rem;
+}

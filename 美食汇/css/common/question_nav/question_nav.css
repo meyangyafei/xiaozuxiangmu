@@ -1,0 +1,19 @@
+/*
+ * 作者：顾乐威
+ * 描述：[我要回答] 页面导航公用样式
+ * 修改：2016.10.4
+ */
+
+/* 导航栏（全部问题、我要提问） */
+nav { position: relative; margin: 1.5rem 0 0.4rem; }
+nav .content { display: flex; height: 1.5rem; align-items: center;}
+
+/* 导航栏1px边框 */
+nav:before { content: ''; position: absolute; top: 0; left: 0; right: 0; border-top: 1px solid #e9e5e2; transform: scaleY(.5); transform-origin: 0 0;}
+nav:after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; border-bottom: 1px solid #e9e5e2; transform: scaleY(.5); transform-origin: 0 0;}
+
+/*导航栏链接  */
+
+nav a { color: #373736; /* font-size: 0.6rem; */ padding: 0 0.9rem; margin-left: -0.9rem; }
+
+nav a.active { color: #fa7e3e; }

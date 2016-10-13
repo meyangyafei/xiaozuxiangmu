@@ -1,0 +1,72 @@
+#container{
+	display: flex;
+	background: #fff8f0;
+	width: 100%;
+	margin: 0 auto;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+#container .section-one{
+	width: 90%;
+	margin: 8px auto;
+
+}
+#container .section-one span{
+	font-weight: normal;
+	display: flex;
+	height: 0.255rem;
+	border-top: 1px solid #ccc;
+	justify-content: center;
+	color: #888;
+	margin-top: 0.5rem;
+	padding-top: 1.3rem;
+	/*padding-bottom: 0.5rem;*/
+	font-size: 1.05rem;
+}
+
+#container .section-one ul{
+	border: 1px solid #ccc;
+	margin-top: 2.5rem;
+}
+#container .section-one ul li{
+	display: inline-flex;	
+	align-items: center;
+	justify-content: center;
+	padding: 0.3rem 0.7rem 0rem;
+	/*margin-left: -0.5rem;*/
+	font-size: 0.8rem;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

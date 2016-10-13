@@ -1,0 +1,150 @@
+section{
+	display: flex;
+	background: #fff8f0;
+	width:100%;
+	flex-flow: column nowrap;
+	
+}
+.friends-h3{
+	display: flex;
+	height: 2.6rem;
+	width: 100%;
+	box-sizing: border-box;
+	border-bottom: 0.025rem solid #e9e5e2;
+	position: relative;
+}
+.friends-tit{
+	display: block;
+	width: 100%;
+	color:#afa8a0;
+	font-weight: 100;
+	text-align: center;
+	padding:1.25rem 0 0.925rem;
+	font-size:0.65rem;
+}
+
+.friends-content-wrap{
+	display: flex;
+	height: 17.625rem;
+	width:100%;
+	position: relative;
+}
+.friends-content{
+	width:100%;
+
+	position: absolute;
+}
+
+.hidden{
+	display: none;
+}
+.show{
+	display: block;
+}
+
+
+.friends-list{
+	display: flex;
+	height: 3.525rem;
+	box-sizing: border-box;
+	border-bottom:0.025rem solid #e9e5e2;
+	width:100%;
+}
+
+.friends-user{
+	display: flex;
+	border-left: 0.025rem solid #e9e5e2;
+	border-right: 0.025rem solid #e9e5e2;
+	box-sizing: border-box;
+	width:68%;
+	padding:0.45rem 0;
+	margin:0;
+}
+.friends-img{
+	display: flex;
+	height:2.6rem;
+	width: 3.9rem;
+}
+.friends-p1,.friends-p2,.friends-p3,.friends-p4,.friends-p5{
+	height:2.6rem;
+	width: 2.6rem;
+	margin:0 0.55rem 0 0.7rem;
+	border-radius: 50%;
+	
+}
+.friends-p1{
+	background:green url(../../imgs/friends/icon1.jpg) no-repeat center;
+	background-size: 100%;	
+}
+.friends-p2{
+	background: url(../../imgs/friends/icon2.jpg) no-repeat top center;
+	background-size: 120%;
+}
+.friends-p3{
+	background: url(../../imgs/friends/icon3.jpg) no-repeat center;
+	background-size: 110%;
+}
+.friends-p4{
+	background: url(../../imgs/friends/icon4.jpg) no-repeat center;
+	background-size: 120%;
+}
+.friends-p5{
+	background: url(../../imgs/friends/icon5.jpg) no-repeat center;
+	background-size: 100%;
+}
+.friends-data{
+	display: flex;
+	width: 70%;
+	flex-flow: column nowrap;
+}
+.friends-name{
+	font-size: 0.6rem;
+	color:#373736;
+	width: 100%;
+	line-height: 1.6rem;
+}
+.friends-access{
+	width:100%;
+	font-size: 0.55rem;
+	color:#afa8a0;
+}
+
+
+
+
+
+.friends-attention{
+	border-right: 0.025rem solid #e9e5e2;
+	font-size:0.6rem;
+	padding:1.425rem 0;
+	color:#fa7e3e;
+	line-height:100%;
+	text-align: center;
+	width:32%;
+}
+
+
+
+.friends-change{
+	height: 3.4rem;
+	line-height:3.3rem;
+	text-align: center;
+	width: 100%;
+}
+
+
+.friends-prev,.friends-six,.friends-num,.friends-next{
+	padding:0.6rem 0;
+	font-size: 0.6rem;
+	color:#373736;
+}
+
+.friends-prev,.friends-next{
+	padding:0.6rem 0.75rem;
+}
+
+.friends-current{
+	background: #fa7e3e;
+	color:#fff;
+}
+

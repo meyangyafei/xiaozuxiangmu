@@ -1,0 +1,48 @@
+@charset "utf-8";
+/**
+ * 作者：顾乐威
+ * 描述：页头、页脚公用样式
+ * 日期：2016.10.6
+ */
+
+/* 页头容器 */
+.com-header-wraper { padding: 0 0.55rem; height: 2.375rem; border-bottom: 0.1rem solid #fa7e3e; background: url(../imgs/header_bg.png) no-repeat; background-size: 100%; display: flex; justify-content: space-between; align-items: center;}
+.com-header-wraper a, .com-header-wraper span { display: flex; }
+a.com-header-logo { text-indent: -99999px; width: 5.9rem; height: 100%;}
+a.com-header-empty { width: 1rem; height: 1rem;}
+a.com-header-search, a.com-header-squire { width: 1.15rem; height: 0.95rem; margin-left: 0.9rem;}
+
+
+/* 页脚容器 */
+.com-footer-wraper { width: 100%; }
+
+/* 搜素区 */
+.com-search-wraper { background-color: #d9d9d9; height: 2.5rem; display: flex; justify-content: center; align-items: center; }
+.com-search-box { display: flex; width: 94%; }
+.com-search-box input { border: 0; height: 1.5rem; padding: 0; }
+.com-search-box input[type=text] { flex: 6; text-indent: 0.8rem;}
+.com-search-box input[type=submit] { flex: 1; background-color: #fa7e3e; color: #fff; font-size: 0.7rem; }
+
+/* 导航链接 */
+.com-footer-nav { display: flex; flex-direction: column; width: 94%; margin: 0 auto; }
+.com-footer-nav a { display: flex; justify-content: space-between; align-items: center; height: 2.5rem; font-size: 0.7rem; position: relative;}
+.com-footer-nav a:after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; border-bottom: 1px solid #eae6e3; transform: scaleY(.5); transform-origin: 0 0;}
+
+/* copyright */
+.com-copy-right { margin-top: 2.25rem; height: 1.35rem; font-size: 0.8rem; color: #fa7e3e; text-align: center; }
+
+/* iconfont */
+@font-face {font-family: 'iconfont';
+    src: url('../imgs/iconfonts/iconfont.eot'); /* IE9*/
+    src: url('../imgs/iconfonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../imgs/iconfonts/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../imgs/iconfonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../imgs/iconfonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}

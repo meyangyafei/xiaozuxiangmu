@@ -1,0 +1,50 @@
+<style type="text/css">
+	/* 输入区域 */
+	form .content > section { display: flex; flex-direction: column; }
+
+	/* 输入区域标题 */
+	section > label, section > span { /*font-size: 0.6rem;*/ color: #bab3ab; display: flex; align-items: center; height: 2.2rem; }
+
+	/* 问题框 */
+	#askQuestion { margin-bottom: 0.4rem; height: 1.25rem; border: 1px solid #afa8a0; border-radius: 0.225rem; }
+
+	/* 问题描述框 */
+	#askDescription { overflow: hidden; margin-bottom: 0.75rem; height: 10rem; border: 1px solid #afa8a0;  border-radius: 0.225rem; resize: none; }
+
+	/* 提交按钮 */
+	form .content .submit { flex-direction: row; justify-content: flex-end;}
+	#askSubmit { margin-bottom: 0.75rem; width: 2.55rem; height: 1.325rem; background-color: #fa7e3e; color: #fff; /*font-size: 0.6rem;*/ display: flex; justify-content: center; align-items: center; border: 0; border-radius: 0.125rem; }
+</style>
+
+<form action="answers.html"	>
+	<div class="content">
+		<section class="question">
+			<label for="askQuestion">问题</label>
+			<input type="text" id="askQuestion" value="" />
+		</section>
+		<section class="description">
+			<span>问题补充（选项）</span>
+			<textarea id="askDescription" name="askDescription"></textarea>
+		</section>
+		<section class="submit">
+			<input id="askSubmit" type="submit" name="askSubmit" value="提问" />
+		</section>
+	</div>
+</form>
+
+<script type="text/javascript">
+	$(function (){
+		var
+			askSubmit = $("#askSubmit"),
+			askQuestion = $("#askQuestion"),
+			askDescription = $("#askDescription");
+
+		// ...
+
+	})
+</script>
+<!--
+	 * 作者：顾乐威
+	 * 描述：[我要回答] 页面结构
+	 * 日期：2016.10.4
+-->
